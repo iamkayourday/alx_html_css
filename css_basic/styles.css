@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: mintcream;
+    color: darkgrey;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+    color: dimgray;
+}
+h1,h2,h3 {
+    text-align: center;
+    color: cadetblue;
+}
+img {
+    height: 50px;
+    width: auto;
+}
+footer {
+    color: black;
+    background-color: white;
+    position: relative;
+}
