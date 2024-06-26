@@ -19,6 +19,6 @@ For any inquiries or further information, please feel free to reach out to me:
 
 Name: Abdulbasit Kayode Imam
 Email: abdulbasitkayode@gmail.com
-LinkedIn: [Abdulbasit Imam](https://www.linkedin.com/abdulbasitimam)
+LinkedIn: [Abdulbasit Imam](www.linkedin.com/in/abdulbasitimam)
 
 - 
