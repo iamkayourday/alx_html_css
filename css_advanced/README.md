@@ -17,8 +17,6 @@ A picture of the wireframe
 ## Author contacts information
 For any inquiries or further information, please feel free to reach out to me:
 
-Name: Abdulbasit Kayode Imam
-Email: abdulbasitkayode@gmail.com
-LinkedIn: [Abdulbasit Imam](www.linkedin.com/in/abdulbasitimam)
-
-- 
+- Name: Abdulbasit Kayode Imam
+- Email: abdulbasitkayode@gmail.com
+- LinkedIn: [Abdul Basit Imam](https://www.linkedin.com/in/abdulbasitimam)
