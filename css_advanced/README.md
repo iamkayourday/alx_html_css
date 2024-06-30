@@ -7,7 +7,7 @@ CSS Advanced project! This project aims to apply advanced CSS concepts to create
 This project is focused on styling a webpage using CSS based on a provided Figma design. I will be responsible for implementing the styles and ensuring that the final result matches the design specifications.
 
 # The wireframe
-A picture of the wireframe
+<!-- A picture of the wireframe -->
 ![Screenshot](wireframe.jpg)
 
 
