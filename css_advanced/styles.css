@@ -1,32 +1,3 @@
-@font-face {
-    font-family: 'source-black';
-    src: url(fonts/SourceSansPro-Black.otf )
-  }
-  
-  @font-face {
-    font-family: 'source-bold';
-    src: url(fonts/SourceSansPro-Bold.otf )
-  }
-  
-  @font-face {
-    font-family: 'source-semi-bold';
-    src: url(fonts/SourceSansPro-Semibold.otf )
-  }
-  
-  @font-face {
-    font-family: 'source';
-    src: url(fonts/SourceSansPro-Regular.otf )
-  }
-  
-  @font-face {
-    font-family: 'source-xlight-italic';
-    src: url(fonts/SourceSansPro-ExtraLightIt.otf )
-  }
-  
-  @font-face {
-    font-family: 'source-light';
-    src: url(fonts/SourceSansPro-Light.otf )
-  }
 * {
     /* border: 1px solid red; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
