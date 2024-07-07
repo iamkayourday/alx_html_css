@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+    /* border: 1px solid green; */
+	font-family: source sans 3;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*********** HEADER SECTION ************/
+.header-background {
+	background-image: url(image/headphones_hero_1.jpg);
+	background-size: cover;
+	height: 800px;	
+}
+.logo {
+	padding: 20px 0 0 205px;
+	display: inline;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	float: right;
+	padding: 20px 190px 0 0;
+	gap: 50px;
+}
+header input {
+	display: none;
+}
+nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 700px;
+	line-height: 15.08px;
+	height: 15px;
+	width: 61px;
+}
+nav li {
+	list-style: none;
+}
+nav a:hover{
+	color: #FF6565;
+}
+.header-section h2{
+	margin: auto;
+	font-size: 32px;
+	color: white;
+	text-align: center;
+	padding: 320px 120px 0 0;
+	
+	
+}
+#first-header-p {
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	padding:0 150px 30px 23px;
+	word-spacing: 3px;
+}
+button{
+	display: block;
+	margin: auto;
+	color: white;
+	background-color: #FF6565;
+	border-radius: 24px;
+	border-style: none;
+	padding: 15px 26px;
+	cursor: pointer;	
+}
+button:hover{
+	background-color: #FF6565
+	;
+	opacity: 0.9
+}
+#second-header-p {
+	font-size: 16px;
+	line-height: 26px;
+	margin: auto;
+	color: white;
+	width: 657px;
+	text-align: center;
+	padding: 80px 110px 0 0;
+}
+
+
+@media (max-width: 770px) { 
+	.header-background {
+		background-image: url(image/tablet-1.png);
+		background-size: cover;
+		height: 800px;
+	}
+	.logo {
+		display: inline;
+		padding: 20px 0 0 50px;
+	}
+	nav ul {
+		display: flex;
+		flex-direction: row;
+		float: right;
+		padding: 20px 50px 0 0;
+		gap: 30px;
+	}
+	.header-section h2 {
+		width: 578px;
+		font-size: 24px;
+		padding: 300px 0 0 0;
+		
+	}
+	#first-header-p {
+		width: 350px;
+		font-size: 14px;
+		padding: 10px 0 25px 0;
+	}
+	#second-header-p {
+		font-size: 16px;
+		width: 657px;
+		margin-left: 50px;
+		line-height: 26px;
+	}
+
+
+}
+
+
+
+
+/* Responsive design for mobile (480px or less) */
+@media (max-width: 480px) {
+	
+	header input {
+		display: none;
+	}
+
+	.menu {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.menu li {
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+		color: white;	
+	}
+
+	header {
+		position: relative;
+		margin-top: 30px;
+	}
+
+	header label {
+		position: absolute;
+		top: 20px;
+		left: 16px;
+		cursor: pointer;
+		margin-left: 21px;
+	}
+	header .menu-icon {
+		
+		display: block;
+		position: relative;
+		margin: auto;
+		margin-top: 20px;
+		height: 2px;
+		width: 18px;
+		background-color: white;
+		transition: background .2s ease-in;
+	}
+	header .menu-icon::before, header .menu-icon::after {
+		content: '';
+		position: absolute;
+		margin: auto;
+		height: 100%;
+		width: 120%;
+		background-color: white;
+		transition: all .2s ease-in;
+	}
+	header .menu-icon::before {
+		bottom: -6px;
+	}
+	header .menu-icon::after {
+		bottom: 6px;
+	}
+	header .nav {
+		display: none;
+	}
+	header input:checked ~ .menu .nav {
+		display: block;
+
+	}
+	header input:checked ~ label .menu-icon::before{
+		bottom: 0px;
+		transform: rotate(45deg);
+	}
+
+	header input:checked ~ label .menu-icon{
+		background-color: transparent;
+	}
+
+	header input:checked ~ label .menu-icon::after{
+		bottom: 0px;
+		transform: rotate(-45deg);
+	}
+
+	.header-background {
+		background-image: url(image/phone-1.png);
+		background-size: cover;
+		width: 480px;
+		height: 950px;
+
+	}
+	.header-section h2 {
+		padding: 330px 0 0 0;
+		width: 375px;
+	}
+	
+	#first-header-p {
+		width: 200px;
+		font-size: 14px;
+		padding: 10px 0 25px 0;
+	}
+	#second-header-p {
+		font-size: 14px;
+		width: 370px;
+		padding: 40px 0 0 20px;
+		line-height: 26px;
+	}
+
+}

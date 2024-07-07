@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Times New Roman', Times, serif;
-    background-color: mintcream;
+    background-color: darkcyan;
     color: darkgrey;
 }
 main {

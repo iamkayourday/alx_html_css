@@ -1,0 +1,587 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    /* border: 1px solid green; */
+	font-family: source sans 3;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*********** HEADER SECTION ************/
+.header-background {
+	background-image: url(image/headphones_hero_1.jpg);
+	background-size: cover;
+	height: 800px;	
+}
+.logo {
+	padding: 20px 0 0 205px;
+	display: inline;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	float: right;
+	padding: 20px 190px 0 0;
+	gap: 50px;
+}
+header input {
+	display: none;
+}
+nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 700px;
+	line-height: 15.08px;
+	height: 15px;
+	width: 61px;
+}
+nav li {
+	list-style: none;
+}
+nav a:hover{
+	color: #FF6565;
+}
+.header-section h2{
+	margin: auto;
+	font-size: 32px;
+	color: white;
+	text-align: center;
+	padding: 320px 120px 0 0;
+	
+	
+}
+#first-header-p {
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	padding:0 150px 30px 23px;
+	word-spacing: 3px;
+}
+button{
+	display: block;
+	margin: auto;
+	color: white;
+	background-color: #FF6565;
+	border-radius: 24px;
+	border-style: none;
+	padding: 15px 26px;
+	cursor: pointer;	
+}
+button:hover{
+	background-color: #FF6565
+	;
+	opacity: 0.9
+}
+#second-header-p {
+	font-size: 16px;
+	line-height: 26px;
+	margin: auto;
+	color: white;
+	width: 657px;
+	text-align: center;
+	padding: 80px 110px 0 0;
+}
+
+/******* WHAT WE DO SECTION *********/
+.what-we-do {
+	margin-bottom:50px;
+}
+.what-we-do h2{
+	font-size: 32px;
+	text-align: center;
+	margin: 80px 0 50px 0;
+	color: #071629;
+	height: 40px;
+	line-height: 37.5px;
+
+}
+.third-p {
+	display: flex;
+	place-items: center;
+	text-align: center;
+	width: 673px;
+	margin: auto;
+	height: 104px;
+	line-height: 26px;
+	padding-bottom: 50px;
+}
+
+.second-content {
+	display: flex;
+	flex-direction: row;
+	align-items: first baseline;
+}
+.mode {	
+	width: 207px;
+	height: 180;
+	margin: auto;
+	justify-content: center;
+	
+}
+
+.mode,p{
+	text-align: center;
+}
+/************************************ OUR RESULT SECTION *****************************************/
+.our-result {
+    background-image: url(image/headphones_hero_2.jpg);
+	background-size: cover;
+    height: 800px;
+}
+.our-result p,h2{
+    color: white;
+    text-align: center;
+	font-size: 14px;
+}
+.our-result h2{
+	font-size: 32px;
+	line-height: 37.5px;
+	text-align: center;
+	height: 40px;
+	top: 141px;
+}
+.our-result-head h2{
+    padding-top: 70px;
+}
+.our-result-head p{
+    width: 637px;
+    height: 104px;
+    top: 221px;
+    left: 382px;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    margin: auto;
+}
+.pentagon {
+    display: flex;
+    flex-direction: row;
+}
+.pentagon {
+	margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pentagon-item {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+.pentagon-text {
+	font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-weight: bold;
+}
+.pentagon .plus {
+	font-size: 46px; 
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.pentagon p{
+	font-size: 10px;
+}
+
+
+/******************* CONTACT SECTION *********************/
+.contact{
+	height: 400px;
+	margin-top: 30px;
+}
+.contact h1{
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+.contact form {
+	display: flex;
+	flex-direction: column;
+	height: 29px;
+	width: 335px;
+	margin: auto;
+}
+input {
+	width: 100%;
+    border: none;
+    border-bottom: 1px solid #979797;
+    padding: 10px 2px;
+	font-weight: bold;
+}
+
+/**************** FOOTER SECTION ******************/
+footer {
+	background-color: #071629;
+	height: 249px;
+}
+.footer-logo {
+	padding: 90px 0 0 50px;
+}
+footer #icons {
+	display: inline;
+}
+.fa-brands {
+	font-size: 30px;
+	float: right;
+	color: white;
+	padding: 0px 30px 0 0;
+	height: 30px;
+}
+footer p{
+	padding-top: 60px;
+}
+footer .icons {
+	padding: 0 20px 0 0;
+	margin-right: 40px;
+}
+
+
+
+
+/********* RESPONSIVE DESIGN *********/
+@media (max-width: 770px) {
+	.header-background {
+		background-image: url(image/tablet-1.png);
+		background-size: cover;
+		height: 800px;
+	}
+	.logo {
+		display: inline;
+		padding: 20px 0 0 50px;
+	}
+	nav ul {
+		display: flex;
+		flex-direction: row;
+		float: right;
+		padding: 20px 50px 0 0;
+		gap: 30px;
+	}
+	.header-section h2 {
+		width: 578px;
+		font-size: 24px;
+		padding: 300px 0 0 0;
+		
+	}
+	#first-header-p {
+		width: 350px;
+		font-size: 14px;
+		padding: 10px 0 25px 0;
+	}
+	#second-header-p {
+		font-size: 16px;
+		width: 657px;
+		margin-left: 50px;
+		line-height: 26px;
+	}
+	.third-p {
+		width: 657px;
+		font-size: 16px;
+		margin-left: 50px;
+		line-height: 26px;
+	}
+	/* What we do */
+	.what-we-do h2 {
+		margin-left: 90px;
+		font-size: 24px;
+	}
+	.second-content {
+		margin-left: 80px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr); 
+		gap: 20px;
+	}
+	
+	.our-result {
+		background-image: url(image/tablet-2.png);
+		height: 800px;
+	}
+	.our-result-head h2 {
+		padding-bottom: 30px;
+	}
+	.our-result-head p{
+		width: 657px;
+		font-size: 16px;
+		margin-left: 50px;
+		line-height: 26px;
+	}
+	.pentagon {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr); 	
+	}
+	.pentagon-item {
+		margin-top: 50px;
+	}	
+}
+
+
+/* Responsive design for mobile (480px or less) */
+@media (max-width: 480px) {
+
+	header input {
+		display: none;
+	}
+
+	.menu {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.menu li {
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+		color: white;	
+	}
+
+	header {
+		position: relative;
+		margin-top: 30px;
+	}
+
+	header label {
+		position: absolute;
+		top: 20px;
+		left: 16px;
+		cursor: pointer;
+		margin-left: 21px;
+	}
+	header .menu-icon {
+		
+		display: block;
+		position: relative;
+		margin: auto;
+		margin-top: 20px;
+		height: 2px;
+		width: 18px;
+		background-color: white;
+		transition: background .2s ease-in;
+	}
+	header .menu-icon::before, header .menu-icon::after {
+		content: '';
+		position: absolute;
+		margin: auto;
+		height: 100%;
+		width: 120%;
+		background-color: white;
+		transition: all .2s ease-in;
+	}
+	header .menu-icon::before {
+		bottom: -6px;
+	}
+	header .menu-icon::after {
+		bottom: 6px;
+	}
+	header .nav {
+		display: none;
+	}
+	header input:checked ~ .menu .nav {
+		display: block;
+
+	}
+	header input:checked ~ label .menu-icon::before{
+		bottom: 0px;
+		transform: rotate(45deg);
+	}
+
+	header input:checked ~ label .menu-icon{
+		background-color: transparent;
+	}
+
+	header input:checked ~ label .menu-icon::after{
+		bottom: 0px;
+		transform: rotate(-45deg);
+	}
+
+	.header-background {
+		background-image: url(image/phone-1.png);
+		background-size: cover;
+		width: 480px;
+		height: 950px;
+
+	}
+	.header-section h2 {
+		padding: 330px 0 0 0;
+		width: 375px;
+	}
+	
+	#first-header-p {
+		width: 200px;
+		font-size: 14px;
+		padding: 10px 0 25px 0;
+	}
+	#second-header-p {
+		font-size: 14px;
+		width: 370px;
+		padding: 40px 0 0 20px;
+		line-height: 26px;
+	}
+
+	.what-we-do h2 {
+		margin-left: 90px;
+		font-size: 24px;
+		font-weight: 700px;
+	}
+	.third-p {
+		font-size: 14px;
+		width: 370px;
+		margin: 0 0 0 60px;
+		line-height: 26px;
+	}
+	
+	.second-content {
+		display: flex;
+		flex-direction: column;
+		margin-left: 50px;
+	}
+	.our-result {
+		background-image: url(image/phone-2.png);
+		height: 1200px;
+		width: 480px;
+	}
+	.our-result-head h2 {
+		padding-bottom: 30px;
+		font-size: 32px;
+
+	}
+	.our-result-head p{
+		font-size: 14px;
+		width: 370px;
+		margin: 0 0 0 60px;
+		line-height: 26px;
+	}
+	.mode {
+		margin-left: 70px;
+	}
+
+	.pentagon {
+		display: flex;
+		margin: auto;
+		flex-direction: column;
+		/* margin:0 0 0 70px; */
+		position: absolute;
+	}
+	.pentagon-item {
+		
+		margin-top: 60px;
+		margin-left: 150px;
+	}
+	#pent {
+		width: 80px;
+	}
+	.contact {
+		margin-left: 60px;
+	}
+	
+	footer {
+		width: 480px;
+		
+	}
+	.footer-logo {
+		padding: 70px 0 0 160px;
+	}
+	.fa-brands {
+		padding: 10px 20px 0 0;
+		margin-right: 20px;
+		
+	}
+	footer .icons {
+		padding: 40px 70px 0 0;
+	}
+
+}
+
+
+/* ANIMATION SECTION */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+button {
+    animation: bounce 2s infinite;
+}
+
+.mode:hover {
+    transform: scale(1.05); /* Slightly scale up the item on hover */
+    opacity: 0.9; /* Slightly reduce opacity on hover */
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
+
+.mode {
+    animation: scale 3s infinite;
+}
+
+.pentagon-item:hover {
+    transform: rotate(10deg) scale(1.1); /* Rotate and scale up the item on hover */
+    opacity: 0.9; /* Slightly reduce opacity on hover */
+}
