@@ -18,17 +18,16 @@ In addition to the standard HTML and CSS, this project incorporates CSS animatio
 - FontAwesome: For icons used throughout the page.
 
 
-
 ## TASKS STRUCTURE 
 - TASKS: 
-       - README.md
-       - 0-index.html, 0-styles.css---Header section
-       - 1-index.html, 1-styles.css---"What we do " section
-       - 2-index.html, 2-styles.css---"Our Results" section
-       - 3-index.html, 3-styles.css---Contact Us section
-       - 4-index.html, 4-styles.css---Footer section
-       - 6-index.html, 6-styles.css---Replace background image with... code!
-       - 7-index.html, 7-styles.css---Let's animate items(I used the bouncing and scaling animation).
+  - `README.md`
+  - `0-index.html`, `0-styles.css` - Header section
+  - `1-index.html`, `1-styles.css` - "What we do" section
+  - `2-index.html`, `2-styles.css` - "Our Results" section
+  - `3-index.html`, `3-styles.css` - Contact Us section
+  - `4-index.html`, `4-styles.css` - Footer section
+  - `6-index.html`, `6-styles.css` - Replace background image with... code!
+  - `7-index.html`, `7-styles.css` - Let's animate items (I used the bouncing and scaling animation)
 
 
 
